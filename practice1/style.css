@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #535353;
+}
+
+.form-container {
+    background-color: #9c27b0;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.form-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form-input {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.form-select {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.form-option {
+    padding: 10px;
+    background-color: #f8e8ff;
+}
+
+.form-radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-radio-label {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-radio {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.form-checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-checkbox-label {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-checkbox {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.form-textarea {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    resize: none;
+    height: 120px;
+}
+
+.form-submit {
+    padding: 10px 20px;
+    background-color: white;
+    color: #9c27b0;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.form-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.form-column {
+    flex: 1;
+}

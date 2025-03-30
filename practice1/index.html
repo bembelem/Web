@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1 class="form-title">ФОРМА</h1>
+        
+        <div class="form-columns">
+            <div class="form-column">
+                <div class="form-row">
+                    <input type="text" class="form-input" placeholder="ФИО">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-label">Пол</div>
+                    <div class="form-radio-group">
+                        <label class="form-radio-label">
+                            <input type="radio" name="gender" class="form-radio">
+                            Жен.
+                        </label>
+                        <label class="form-radio-label">
+                            <input type="radio" name="gender" class="form-radio">
+                            Муж.
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <input type="password" class="form-input" placeholder="Пароль">
+                </div>
+                
+                <div class="form-row">
+                    <select class="form-select">
+                        <option value="" disabled selected>Страна</option>
+                        <option class="form-option">Россия</option>
+                        <option class="form-option">United Kingdom</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-column">
+                <div class="form-row">
+                    <div class="form-label">Выберите:</div>
+                    <div class="form-checkbox-group">
+                        <label class="form-checkbox-label">
+                            <input type="checkbox" class="form-checkbox">
+                            Мороженное
+                        </label>
+                        <label class="form-checkbox-label">
+                            <input type="checkbox" class="form-checkbox">
+                            Мясо
+                        </label>
+                        <label class="form-checkbox-label">
+                            <input type="checkbox" class="form-checkbox">
+                            Салат
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <textarea class="form-textarea" placeholder="Что вы любите, напишите..."></textarea>
+                </div>
+                
+                <div class="form-row">
+                    <button type="submit" class="form-submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
